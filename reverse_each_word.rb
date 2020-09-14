@@ -3,4 +3,5 @@ def reverse_each_word(sentence)
   reversed_sentence = []
   reversed_sentence << sentence
   reversed_sentence.each { |word| word.reverse } 
+  reversed_sentence
 end   
