@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  "sentence".split(" ")
+  array = sentence.split(" ")
   reversed_sentence = []
   reversed_sentence << sentence.map(&:reverse!)
   reversed_sentence
