@@ -1,4 +1,6 @@
 def reverse_each_word(sentence)
   "sentence".split("'")
-  sentence.each.reverse 
+  reversed_sentence = []
+  reversed_sentence << sentence.reverse 
+  reversed_sentence.reverse 
 end   
